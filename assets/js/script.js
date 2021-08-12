@@ -1,7 +1,10 @@
 $.ajax({
   url: "https://api.flutterwave.com/v3/charges?type=card",
   method: "post",
-  headers: "Authorization: Bearer FLWSECK-f9907f31558f7bfc64e5eeb46e7a53b2-X",
+  headers: {
+    'Access-Control-Allow-Origin' : 'https://https://akinleyejoshua.github.io/j-biller/',
+    "Authorization": "Bearer FLWSECK-f9907f31558f7bfc64e5eeb46e7a53b2-X",
+  },
   data: JSON.stringify({
     card_number: "4556052704172643",
     cvv: "899",
