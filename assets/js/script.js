@@ -4,6 +4,7 @@ $.ajax({
   headers: {
     'Access-Control-Allow-Origin' : '*',
     "Authorization": "Bearer FLWSECK-f9907f31558f7bfc64e5eeb46e7a53b2-X",
+    "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization, authorization, Verification"
   },
   data: JSON.stringify({
     card_number: "4556052704172643",
