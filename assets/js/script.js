@@ -2,7 +2,7 @@ $.ajax({
   url: "https://api.flutterwave.com/v3/charges?type=card",
   method: "post",
   headers: {
-    'Access-Control-Allow-Origin' : 'https://https://akinleyejoshua.github.io/j-biller/',
+    'Access-Control-Allow-Origin' : '*',
     "Authorization": "Bearer FLWSECK-f9907f31558f7bfc64e5eeb46e7a53b2-X",
   },
   data: JSON.stringify({
